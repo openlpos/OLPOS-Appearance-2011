@@ -1,0 +1,69 @@
+(
+  Applications,
+  (Run..., EXEC, "%a(Run,Type command to run:)"),
+  (XTerm, EXEC, "xterm -sb"),
+  (
+    "POS Tools",
+    ("Admin Utils", OPEN_MENU, "/home/admin/Utils/ WITH xterm -e bash")
+  ),
+  (
+    "openSUSE Menu",
+    OPEN_MENU,
+    "| xdg_menu --format WindowMaker --charset UTF-8"
+  ),
+  (
+    WindowMaker,
+    ("Hide Others", HIDE_OTHERS),
+    ("Show All", SHOW_ALL),
+    ("Arrange Icons", ARRANGE_ICONS),
+    (Refresh, REFRESH),
+    (Lock, EXEC, "xlock -allowroot -usefirst"),
+    ("Save Session", SAVE_SESSION),
+    ("Clear Session", CLEAR_SESSION),
+    ("Switch to GNOME Desktop", RESTART, "gnome-desktop")
+  ),
+  (
+    Appearance,
+    (
+      "Set POS Cursor",
+      EXEC,
+      "xsetroot -cursor /home/admin/POS-Cursor/fingerprint_cursor.xbm /home/admin/POS-Cursor/fingerprint_cursor.xbm"
+    ),
+    (
+      Themes,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Themes $HOME/GNUstep/Library/WindowMaker/Themes WITH setstyle"
+    ),
+    (
+      Styles,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Styles $HOME/GNUstep/Library/WindowMaker/Styles WITH setstyle"
+    ),
+    (
+      "Icon Sets",
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/IconSets $HOME/GNUstep/Library/WindowMaker/IconSets WITH seticons"
+    ),
+    (
+      Background,
+      (Images, OPEN_MENU, "/usr/share/wallpapers WITH wmsetbg -u -t")
+    ),
+    (
+      "Save Theme",
+      SHEXEC,
+      "getstyle -t $HOME/GNUstep/Library/WindowMaker/Themes/\"%a(Theme name)\""
+    ),
+    (
+      "Save IconSet",
+      SHEXEC,
+      "geticonset $HOME/GNUstep/Library/WindowMaker/IconSets/\"%a(IconSet name)\""
+    ),
+    (
+      "Preferences Utility",
+      EXEC,
+      "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs"
+    )
+  ),
+  (Workspaces, WORKSPACE_MENU),
+  (Exit, (Restart, RESTART), (Exit, EXIT))
+)

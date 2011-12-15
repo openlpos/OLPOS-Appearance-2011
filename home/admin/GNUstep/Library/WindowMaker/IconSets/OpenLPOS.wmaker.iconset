@@ -1,0 +1,281 @@
+{
+  Stepman = {
+    Icon = Bookshelf.xpm;
+  };
+  "firefox-bin.Firefox-bin" = {
+    Icon = Globe48.png;
+  };
+  inkscape.Inkscape = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/inkscape.Inkscape.xpm";
+  };
+  ark.Ark = {
+    Icon = BlackBox-LookingGlass.png;
+  };
+  kompare.Kompare = {
+    Icon = Document-LookingGlass.png;
+  };
+  pan.Pan = {
+    Icon = News48.png;
+  };
+  konsole.Konsole = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  k3b.K3b = {
+    Icon = "CD-burn.png";
+  };
+  image_window.Gimp = {
+    Icon = Art48.png;
+  };
+  KTerm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  AcroRead = {
+    Icon = pdf.tiff;
+  };
+  Logo.WMPanel = {
+    Icon = GNUstep.tiff;
+  };
+  Dockit = {
+    Icon = GNUstep.tiff;
+  };
+  color_palette.Gimp = {
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  tip_of_the_day.Gimp = {
+    Icon = "wmaker-gimp2.tif";
+  };
+  xcalc = {
+    Icon = Calculator.app.tiff;
+  };
+  kwrite.Kwrite = {
+    Icon = Document-Text-Generic.png;
+  };
+  brushselection.Gimp = {
+    Icon = "wmaker-gimp-brushes.tif";
+  };
+  dillo.Dillo = {
+    Icon = Globe48.png;
+  };
+  WPrefs = {
+    Icon = BellsWhistles48.png;
+  };
+  XTerm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  Rxvt = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  groupLeader.WPrefs = {
+    Icon = BellsWhistles48.png;
+  };
+  lyX.XForm = {
+    Icon = Document-Text-Generic.png;
+  };
+  wprefs.WPrefs = {
+    Icon = BellsWhistles48.png;
+  };
+  xmixer = {
+    Icon = Speaker48.png;
+  };
+  "script-fu.Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  toolbox.Gimp = {
+    Icon = "wmaker-gimp2.tif";
+  };
+  gimp.Gimp = {
+    Icon = Art48.png;
+  };
+  Emacs = {
+    Icon = "NSMonitor_AppWindow48.png";
+  };
+  gaim.Gaim = {
+    Icon = Aim48.png;
+  };
+  "*" = {
+    Icon = NSMonitor_AppWindow48.png;
+  };
+  Worker.Worker = {
+    Icon = filecabinet-48.png;
+  };
+  Xman = {
+    Icon = Bookshelf.xpm;
+  };
+  xplaycd = {
+    Icon = cda-48.png;
+  };
+  kate.Kate = {
+    Icon = Document-Text-Generic.png;
+  };
+  oclock.Clock = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/oclock.Clock.xpm";
+  };
+  WSoundServer = {
+    Icon = Speaker48.png;
+  };
+  Ghostview = {
+    Icon = Ghost.xpm;
+  };
+  nachoTERM.Eterm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  patternselection.Gimp = {
+    Icon = "wmaker-gimp-patterns.tif";
+  };
+  gradient_editor.Gimp = {
+    Icon = "wmaker-gimp-gradient.tif";
+  };
+  filebrowser.Endeavour = {
+    Icon = filecabinet-48.png;
+  };
+  XConsole = {
+    Icon = CodeVew-itomatOS-48px.png;
+  };
+  xchat.Xchat = {
+    Icon = Messenge48.png;
+  };
+  "Gecko.Firefox-bin" = {
+    Icon = Globe48.png;
+  };
+  Logo.WMDock = {
+    Icon = GNUstep.tiff;
+  };
+  indexed_color_palette.Gimp = {
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  Gimp = {
+    Icon = Art48.png;
+  };
+  aterm.XTerm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  gvim.Gvim = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/gvim.Gvim.xpm";
+  };
+  ethereal.Ethereal = {
+    Icon = NetLook48.png;
+  };
+  tool_options.Gimp = {
+    Icon = "wmaker-gimp-tooloption.tif";
+  };
+  nessus.Nessus = {
+    Icon = "HardeningALL-alt.png";
+  };
+  manualBrowser.Xman = {
+    Icon = Book.xpm;
+  };
+  xterm.XTerm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  Fte = {
+    Icon = Clipboard.tif;
+  };
+  endeavour2.Endeavour2 = {
+    Icon = filecabinet-48.png;
+  };
+  gentoo.Gentoo = {
+    Icon = filecabinet-48.png;
+  };
+  "Mozilla-bin" = {
+    Icon = "Globe48.png";
+  };
+  Fig = {
+    Icon = fig-48.png;
+  };
+  gimp_startup.Gimp = {
+    Icon = Art48.png;
+  };
+  rxvt.XTerm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  Tile.WMClip = {
+    Icon = Clip48-2.0.png;
+  };
+  kicker.Kicker = {
+    Icon = NeXTstationTurboColor_Top_L.png;
+  };
+  xeyes.XEyes = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/xeyes.XEyes.xpm";
+  };
+  "script-fu.Gimp" = {
+    Icon = Art48.png;
+  };
+  layers_and_channels.Gimp = {
+    Icon = "wmaker-gimp-layers.tif";
+  };
+  kcontrol.Kcontrol = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/kcontrol.Kcontrol.xpm";
+  };
+  gtkam.Gtkam = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/gtkam.Gtkam.xpm";
+  };
+  Logo.WMClip = {
+    Icon = Clip48-2.0.png;
+  };
+  knode.Knode = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/knode.Knode.xpm";
+  };
+  gnumeric.Gnumeric = {
+    Icon = "~/GNUstep/.AppInfo/WindowMaker/gnumeric.Gnumeric.xpm";
+  };
+  scite.Scite = {
+    Icon = Document-Text-Generic.png;
+  };
+  WMSoundServer = {
+    Icon = Speaker48.png;
+  };
+  Display = {
+    Icon = Negative-LookingGlass.png;
+  };
+  xv = {
+    Icon = Negative-LookingGlass.png;
+  };
+  gqview.Gqview = {
+    Icon = Negative-LookingGlass.png;
+  };
+  preferences.Gimp = {
+    Icon = "wmaker-gimp-prefs.tif";
+  };
+  XMMS_Player.xmms = {
+    Icon = Record.png;
+  };
+  xmcd = {
+    Icon = Record.png;
+  };
+  "Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  Netscape = {
+    Icon = "Globe48.png";
+  };
+  NXTerm = {
+    Icon = NSMonitor_Shell48.png;
+  };
+  xjed = {
+    Icon = Document-Text-Generic.png;
+  };
+  XPaint = {
+    Icon = Art48.png;
+  };
+  Xmessage = {
+    Icon = Reference.xpm;
+  };
+  konqueror.Konqueror = {
+    Icon = filecabinet-48.png;
+  };
+  Xmag = {
+    Icon = Document-LookingGlass.png;
+  };
+  xedit = {
+    Icon = notepad.tiff;
+  };
+  wmakerconf.Wmakerconf = {
+    Icon = BellsWhistles48.png;
+  };
+  "x-www-browser.X-www-browser" = {
+    Icon = Globe48.png;
+  };
+  XLess = {
+    Icon = Reference.xpm;
+  };
+}

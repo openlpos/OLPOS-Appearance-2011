@@ -1,0 +1,68 @@
+{
+  "gnome-appearance-properties.Gnome-appearance-properties" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-appearance-properties.Gnome-appearance-properties.xpm";
+  };
+  Xdialog.Xdialog = {
+    Icon = "Exe-Shell48.png";
+  };
+  firefox.Firefox = {
+    Icon = "web-browser.png";
+  };
+  gnomesu.Gnomesu = {
+    Icon = "display-capplet.png";
+  };
+  brasero.Brasero = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/brasero.Brasero.xpm";
+  };
+  xterm.XTerm = {
+    Icon = "gnome-term.png";
+  };
+  "gnome-default-applications-properties.Gnome-default-applications-properties" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-default-applications-properties.Gnome-default-applications-properties.xpm";
+  };
+  "gnome-control-center.Gnome-control-center" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-control-center.Gnome-control-center.xpm";
+  };
+  groupLeader.WPrefs = {
+    Icon = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  "gnome-mouse-properties.Gnome-mouse-properties" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-mouse-properties.Gnome-mouse-properties.xpm";
+  };
+  "gnome-terminal.Gnome-terminal" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal.Gnome-terminal.xpm";
+  };
+  "gnome-volume-control.Gnome-volume-control" = {
+    Icon = "gnome-settings-sound.png";
+  };
+  kbarcode.Kbarcode = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/kbarcode.Kbarcode.xpm";
+  };
+  Logo.WMClip = {
+    Icon = "Clip48-2.0.png";
+  };
+  Dialog.Firefox = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/Dialog.Firefox.xpm";
+  };
+  "y2controlcenter-gnome.Y2controlcenter-gnome" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/y2controlcenter-gnome.Y2controlcenter-gnome.xpm";
+  };
+  gqview.Gqview = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gqview.Gqview.xpm";
+  };
+  "gnome-nettool.Gnome-nettool" = {
+    Icon = "gnome-fs-network.png";
+  };
+  "xscreensaver-demo.Xscreensaver-demo" = {
+    Icon = "gnome-ccscreensaver.png";
+  };
+  "gnome-sound-properties.Gnome-sound-properties" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-sound-properties.Gnome-sound-properties.xpm";
+  };
+  VirtualBox.VirtualBox = {
+    Icon = "gnome-run.png";
+  };
+  "gnome-session-properties.Gnome-session-properties" = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-session-properties.Gnome-session-properties.xpm";
+  };
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=OpenLPOS2009
+Type=X-GNOME-Metatheme
+Comment=OpenLPOS2009 - kill the lavender
+
+[X-GNOME-Metatheme]
+GtkTheme=OpenLPOS2009
+MetacityTheme=Glossy
+IconTheme=OpenLPOS2009-Icons
+CursorTheme=OpenLPOS-POS-Cursor
+CursorSize=32
+NotificationTheme=standard

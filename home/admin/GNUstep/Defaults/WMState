@@ -1,0 +1,200 @@
+{
+  Dock = {
+    Lowered = No;
+    Applications960 = (
+      {
+        Name = Logo.WMDock;
+        Lock = No;
+        AutoLaunch = No;
+        Command = "-";
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = xterm.XTerm;
+        Lock = No;
+        AutoLaunch = No;
+        Command = xterm;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = groupLeader.WPrefs;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs";
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+    Position = "-64,0";
+    Applications = (
+      {
+        Name = Logo.WMDock;
+        Lock = No;
+        AutoLaunch = No;
+        Command = "-";
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = xterm.XTerm;
+        Lock = No;
+        AutoLaunch = No;
+        Command = xterm;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = groupLeader.WPrefs;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs";
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+  };
+  Clip = {
+    Name = Logo.WMClip;
+    Lock = No;
+    AutoLaunch = No;
+    Command = "-";
+    Position = "40,85";
+    Forced = No;
+    BuggyApplication = No;
+  };
+  Workspace = Main;
+  Workspaces = (
+    {
+      Clip = {
+        AutoAttractIcons = Yes;
+        AutoCollapse = Yes;
+        Lowered = No;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = (
+          {
+            PasteCommand = "xterm -sb %s";
+            Name = xterm.XTerm;
+            Lock = No;
+            AutoLaunch = No;
+            Command = "xterm -sb";
+            Position = "1,0";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "firefox %s";
+            Name = firefox.Firefox;
+            Lock = No;
+            AutoLaunch = No;
+            Command = firefox;
+            Position = "0,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "SaX2 %s";
+            Name = gnomesu.Gnomesu;
+            Lock = No;
+            AutoLaunch = No;
+            Command = SaX2;
+            Position = "1,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "sh /home/admin/Utils/POSmenu/posmenu";
+            Name = Xdialog.Xdialog;
+            Lock = Yes;
+            AutoLaunch = No;
+            Command = "sh /home/admin/Utils/POSmenu/posmenu";
+            Position = "1,2";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "xscreensaver-demo %s";
+            Name = "xscreensaver-demo.Xscreensaver-demo";
+            Lock = No;
+            AutoLaunch = No;
+            Command = "xscreensaver-demo";
+            Position = "2,0";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "/usr/lib/virtualbox/VirtualBox %s";
+            Name = VirtualBox.VirtualBox;
+            Lock = No;
+            AutoLaunch = No;
+            Command = "/usr/lib/virtualbox/VirtualBox";
+            Position = "1,3";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          }
+        );
+      };
+      Name = Main;
+    },
+    {
+      Clip = {
+        AutoAttractIcons = Yes;
+        AutoCollapse = Yes;
+        Lowered = No;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "#2";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = Yes;
+        AutoCollapse = Yes;
+        Lowered = No;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "#3";
+    }
+  );
+  Applications = (
+    {
+      Dock = Main;
+      Hidden = No;
+      ShortcutMask = 0;
+      Name = xterm.XTerm;
+      Geometry = "501x316+484+39";
+      Workspace = Main;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "xterm -sb";
+    },
+    {
+      Dock = Main;
+      Hidden = No;
+      ShortcutMask = 0;
+      Name = Xdialog.Xdialog;
+      Geometry = "330x195+141+2";
+      Workspace = Main;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "Xdialog --title \"OpenLPOS POS Menu\" --menu \"Please choose a POS function:\" 15 55 5 POSTest \"Check JavaPOS Drivers and Devices\" FreeMercator \"Run FreeMercator\" FMAdmin \"FreeMercator Admin Mode\" Keyboard \"Display onscreen keyboard\" Calibrate \"Calibrate touchscreen with 'touchcal'\"";
+    }
+  );
+}

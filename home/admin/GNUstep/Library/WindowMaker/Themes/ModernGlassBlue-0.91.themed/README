@@ -1,0 +1,39 @@
+Thanks for downloading Modern Glass - Blue for WindowMaker 0.90+
+=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+INTRO
+-----
+This theme utilizes some of WindowMaker's advanced features; the gradient editor and the newly-added anti-aliased fonts.  If you have installed Microsoft's core fonts, the theme should be using 'Trebuchet MS' for everything.  FreeSans is a nice substitute.  I can include some scriptable options if this proves to be a successful theme on it's own.
+
+This theme and the icons distributed with it are not to be used for commercial purposes.  Most are original, those that are not, I make no claim to and will remove from distribution upon request.
+
+This is a preview of a project I'm working on - itomatOS.  The goal of the project is to bring a workable, no-nonsense Knoppix/Morphix/Debian/GNU/Linux (phew) to the LiveCD scene coming from the same aesthetic direction as NeXTSTEP, OPENSTEP, and OS X.  
+
+More to be announced as it happens.  If you want to be notified on updates/changes to the project, or you wish to make comments on this theme, please email it0mat0@email.com
+
+
+ICONS
+------
+To use the icons and wallpapers distributed herein, do one of the following:
+ 
+ * copy them to a location in your Windowmaker icon/pixmap path
+ * add this directory to your path
+
+There is an iconset file that accompanies this theme - itomatOS-0.91.iconset.  Run 'seticons itomatOS-0.91.iconset' to load the iconset.  
+
+There are a few icons that are specified from the GNUstep Icons set - 
+
+http://freshmeat.net/redir/gnustep-icons/33043/url_tgz/gnustep-icons-1.0.tar.gz
+
+Put those in your path - the iconset definitions assume they are in ~/GNUstep/Library/Icons.  Just unpack the tarball there, and you should be good to go.
+
+ALSO
+----
+Download genmenu 1.0.7 or newer and rediscover  WindowMaker's menu all over again.
+
+
+
+Thanks a whole heap, and I hope you enjoy.
+
+LONG LIVE WINDOWMAKER!
+
+itomato
